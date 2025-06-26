@@ -1,15 +1,157 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prosta Strona</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nowoczesna Strona z Reklamami</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+
+    nav a:hover {
+      background-color: #444;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 30px 10%;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    article {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 400px;
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .ad-banner {
+      background: #e6e6e6;
+      text-align: center;
+      padding: 10px;
+      margin: 30px auto;
+      max-width: 90%;
+      border-radius: 8px;
+    }
+
+    .ad-horizontal {
+      text-align: center;
+      margin: 30px auto;
+      max-width: 728px;
+    }
+
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    h1, h2 {
+      margin-top: 0;
+    }
+  </style>
 </head>
 <body>
-  <h1>Witaj na mojej stronie</h1>
-  <p>To jest przykładowa strona z osadzonym skryptem.</p>
 
-  <!-- Twój skrypt -->
-  <script type="text/javascript" src="//pl27015238.profitableratecpm.com/85/82/98/858298680d63c41651441d3e76c1d058.js"></script>
+  <header>
+    <h1>Moja Strona Informacyjna</h1>
+    <p>Wiadomości, porady, ciekawostki – i reklamy 😉</p>
+  </header>
+
+  <nav>
+    <a href="#">Strona Główna</a>
+    <a href="#">Aktualności</a>
+    <a href="#">Blog</a>
+    <a href="#">Kontakt</a>
+  </nav>
+
+  <!-- Reklama nad contentem -->
+  <div class="ad-banner">
+    <script async="async" data-cfasync="false" src="//pl27015282.profitableratecpm.com/d8e01c849afd1a443e60ea26a094fef5/invoke.js"></script>
+    <div id="container-d8e01c849afd1a443e60ea26a094fef5"></div>
+  </div>
+
+  <!-- Reklama pozioma 728x90 -->
+  <div class="ad-horizontal">
+    <script type="text/javascript">
+      atOptions = {
+        'key' : 'efea2a64c32b79b3d84041848cfd569c',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+      };
+    </script>
+    <script type="text/javascript" src="//www.highperformanceformat.com/efea2a64c32b79b3d84041848cfd569c/invoke.js"></script>
+  </div>
+
+  <main>
+    <article>
+      <h2>Nowości Technologiczne</h2>
+      <p>Sprawdź, co nowego w świecie AI, mobilnych aplikacji i inteligentnych urządzeń!</p>
+    </article>
+
+    <article>
+      <h2>Porady Domowe</h2>
+      <p>Najlepsze lifehacki na sprzątanie, organizację czasu i oszczędzanie pieniędzy.</p>
+    </article>
+
+    <!-- Reklama między artykułami -->
+    <div class="ad-banner">
+      <script type='text/javascript' src='//pl27015238.profitableratecpm.com/85/82/98/858298680d63c41651441d3e76c1d058.js'></script>
+    </div>
+
+    <article>
+      <h2>Ciekawostki z Historii</h2>
+      <p>Czy wiesz, że Napoleon był niższy, niż myślisz? Poznaj zaskakujące fakty!</p>
+    </article>
+
+    <article>
+      <h2>Zdrowie i Dieta</h2>
+      <p>Jak zdrowo się odżywiać i nie dać się naciągnąć na modne diety?</p>
+    </article>
+  </main>
+
+  <!-- Reklama w stopce -->
+  <div class="ad-banner">
+    <script async="async" data-cfasync="false" src="//pl27015282.profitableratecpm.com/d8e01c849afd1a443e60ea26a094fef5/invoke.js"></script>
+    <div id="container-d8e01c849afd1a443e60ea26a094fef5"></div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Moja Strona. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+
 </body>
 </html>
